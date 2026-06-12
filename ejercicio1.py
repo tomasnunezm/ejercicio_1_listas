@@ -10,4 +10,16 @@ while True:
             break
         raise ValueError
     except:
-        print("La cantidad no puede ser superior a 30 y debe ser un numero entero positivo.")
+        print("La cantidad no puede ser superior a 30 y debe ser un numero entero positivo.")        print("La cantidad no puede ser superior a 30 y debe ser un numero entero positivo.")
+
+lista_alumnos = []
+
+for i in range(cant_alumnos):
+     print("-------------------- Datos del alumno nro ", i + 1)
+     alumno = {}
+     alumno ["Nombre"] = input("Ingrese el nombre del alumno: ")
+     alumno ["Direccion"] = input("Ingrese la direccion del alumno: ")
+     alumno ["Telefono"] = input("Ingrese el numero de telefono del alumno: ")
+     lista_alumnos.append(alumno)
+    
+print(lista_alumnos) 
